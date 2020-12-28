@@ -25,4 +25,7 @@ for line in sorted_formating_data:
         output_string += line[1]
         # print(line)
 
-print(output_string)
+if output_string == '':
+    print(input_m)
+else:
+    print(output_string)
